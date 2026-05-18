@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>Unleashed Loot-Dashboard</title>
+        <link rel="stylesheet" href="style.css">
+        <script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script>
+        <script src="https://wow.zamimg.com/js/tooltips.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <h1>Wilkommen im LootCouncil Dashboard</h1>
+        <h3>Unleashed - Thunderstrike - Horde</h3>
+        <div id="raid">
+            <table id="raidTable">
+                <caption>Raid-Historie</caption>
+                <thead>
+                    <tr>
+                        <th>Raid ID</th>
+                        <th>Instanz</th>
+                        <th>Datum</th>
+                        <th>Bosse</th>
+                    </tr>
+                </thead>
+                <tbody id="raidBody">
+                    </tbody>
+            </table>
+        </div>
+        <div id="attendance">
+            <table id="attendanceTable">
+                <caption>Anwesenheit</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Klasse</th>
+                        <th>Progress (4 IDs)</th>
+                        <th>Gesamt</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="attendanceBody">
+                </tbody>
+            </table>
+        </div>
+        <div id="loot">
+            <table id="lootTable">
+                <caption>Loot-Historie</caption>
+                <thead>
+                    <tr>
+                        <th>Spieler</th>
+                        <th>Item</th>
+                        <th>Datum</th>
+                        <th>Raid</th>
+                    </tr>
+                </thead>
+                <tbody id="lootBody">
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

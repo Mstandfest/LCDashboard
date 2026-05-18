@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin - Unleashed Loot-Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" style="color: #ffd100; text-decoration: none;">← Zurück zum Dashboard</a>
+    </nav>
+
+    <h1>Raid-Daten Import</h1>
+    <h3>Admin-Panel</h3>
+
+    <div class="admin-container">
+        <div id="statusMessage" style="margin-bottom: 20px; padding: 10px; display: none;"></div>
+        
+        <label for="adminToken">Admin-Token:</label><br>
+        <input type="password" id="adminToken" placeholder="Dein geheimer Schlüssel" style="margin-bottom: 20px; padding: 10px; width: 300px;"><br>
+
+        <label for="raidString">Addon-Export-String:</label><br>
+        <textarea id="raidString" rows="10" placeholder="SSC|...^...^..." style="width: 80%; padding: 10px; font-family: monospace; background: #222; color: #fff; border: 1px solid #444;"></textarea><br>
+
+        <button id="importBtn" style="margin-top: 20px; padding: 15px 30px; background: #8b0000; color: white; border: none; cursor: pointer; font-weight: bold;">RAID IMPORTIEREN</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

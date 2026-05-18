@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    text-align: center;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #eee;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+caption {
+    font-size: x-large;
+    margin-top: 20px;
+    background-color: rgba(139, 0, 0, 0.8);
+    color: #ffd100;
+    border-collapse: collapse;
+    border: 1px solid #444;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 80%;
+    border: 1px solid #444;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background-color: rgba(139, 0, 0, 0.8); /* Ein dunkles "Horde-Rot" für die Header */
+    color: #ffd100; /* WoW-Gold für die Überschriften */
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 209, 0, 0.1);
+}

@@ -1,0 +1,12 @@
+.env
+
+
+mysql_data/
+
+nginx/
+
+npm_data/
+
+npm_letsencrypt/
+
+letsencrypt/
