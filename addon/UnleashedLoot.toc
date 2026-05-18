@@ -1,0 +1,8 @@
+## Interface: 20504
+## Title: UnleashedLoot
+## Notes: Exportiert Raid-Daten für das LootCouncil Dashboard.
+## Author: Bravestar_BBQ
+## Version: 1.0
+## SavedVariables: UnleashedLootDB
+
+UnleashedLoot.lua
