@@ -55,7 +55,7 @@ async function loadDashboardData() {
             </tr>
         `).join('');
 
-        // WoWhead Transformation starten
+        // WoWhead refresh
         refreshWoWhead();
 
     } catch (err) {
@@ -71,7 +71,7 @@ function refreshWoWhead(versuche = 10) {
     }
 }
 
-// Admin Logik...
+// Admin Post mit Secret-Key
 function initAdminPanel() {
     const importBtn = document.getElementById('importBtn');
     if (!importBtn) return;

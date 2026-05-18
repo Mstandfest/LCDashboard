@@ -44,8 +44,8 @@ th, td {
 }
 
 th {
-    background-color: rgba(139, 0, 0, 0.8); /* Ein dunkles "Horde-Rot" für die Header */
-    color: #ffd100; /* WoW-Gold für die Überschriften */
+    background-color: rgba(139, 0, 0, 0.8); 
+    color: #ffd100; 
     text-transform: uppercase;
 }
 
